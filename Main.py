@@ -6,21 +6,22 @@ class Stack:
 
     def is_empty(self):
         # Write code here
-
+if lens(self.item)==0
+    
     def is_full(self):
-        # Write code here
-
+      # Write code here
+if len(self.items) >= size:
     def push(self, data):
         if not self.is_full():
             # Write code here
-
+if not self.is_full():
     def pop(self):
         if not self.is_empty():
             # Write code here
-
+if not self.is_empty():
     def status(self):
         # Write code here
-
+ for item in self.items:
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
